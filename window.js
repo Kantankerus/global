@@ -9,7 +9,7 @@ if (typeof window !== "undefined") {
 } else {
     win = {
         location: {
-            hostname: 'fred'
+            hostname: "fred"
         }
     };
 }
