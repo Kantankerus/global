@@ -7,7 +7,11 @@ if (typeof window !== "undefined") {
 } else if (typeof self !== "undefined"){
     win = self;
 } else {
-    win = {};
+    win = {
+        location: {
+            hostname: 'fred'
+        }
+    };
 }
 
 module.exports = win;
