@@ -10,7 +10,8 @@ var win;
     win = {
         location: {
             hostname: "fred"
-        }
+        },
+        setTimeout: false,
     };
 //}
 
